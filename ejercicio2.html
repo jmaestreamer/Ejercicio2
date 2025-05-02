@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+
+		<title> Ejercicio 2 </title>
+
+	</head>
+
+	<body>		
+
+		<h1> Ejercicio 2 </h1>
+
+		<p> Veamos si se crear una tabla </p>	
+
+		<table border = "1"> 
+			<th>  </th>
+			<th> Primera columna </th>
+			<th> Segunda columna </th>
+			<tr> 
+				<th> Primera fila </th>
+				<td id="miCelda1" onclick=cambiarColor1()> C1 </td>
+				<td id="miCelda2" onclick=cambiarColor2()> C2 </td>
+			</tr> 
+			<tr> 
+				<th> Segunda fila </th>
+				<td id="miCelda3" onclick=cambiarColor3()> C3 </td>
+				<td id="miCelda4" onclick=cambiarColor4()> C4 </td>
+			</tr> 
+		</table>				
+
+		<script>
+		
+			function cambiarColor1() {
+				
+				if (document.getElementById("miCelda1").style.backgroundColor=="lightgreen"){
+					document.getElementById("miCelda1").style.backgroundColor="white";
+					contador = 1;
+				}else{
+					document.getElementById("miCelda1").style.backgroundColor="lightgreen";
+				}
+				
+			}
+
+			function cambiarColor2() {
+				
+				if (document.getElementById("miCelda2").style.backgroundColor=="lightgreen"){
+					document.getElementById("miCelda2").style.backgroundColor="white";
+					contador = 1;
+				}else{
+					document.getElementById("miCelda2").style.backgroundColor="lightgreen";
+				}
+				
+			}
+
+			function cambiarColor3() {
+				
+				if (document.getElementById("miCelda3").style.backgroundColor=="lightgreen"){
+					document.getElementById("miCelda3").style.backgroundColor="white";
+					contador = 1;
+				}else{
+					document.getElementById("miCelda3").style.backgroundColor="lightgreen";
+				}
+				
+			}
+
+			function cambiarColor4() {
+				
+				if (document.getElementById("miCelda4").style.backgroundColor=="lightgreen"){
+					document.getElementById("miCelda4").style.backgroundColor="white";
+					contador = 1;
+				}else{
+					document.getElementById("miCelda4").style.backgroundColor="lightgreen";
+				}
+				
+			}
+
+		</script>
+
+	</body>
+
+</html>
